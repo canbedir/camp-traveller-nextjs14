@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link
           href={"/"}
           className="font-semibold text-xl"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-once="true"
           data-aos-delay="100"
         >

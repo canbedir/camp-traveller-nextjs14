@@ -10,6 +10,9 @@ const config = {
   ],
   prefix: "",
   theme: {
+    backgroundImage:{
+      pattern:"url('/pattern/2.png')"
+    },
     fontFamily: {
       roboto: ["Roboto", "sans-serif"],
       poppins: ["Poppins", "sans-serif"],

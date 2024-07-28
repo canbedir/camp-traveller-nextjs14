@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar/Navbar";
+import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <div className="font-roboto">
       <Navbar />
+      <Hero />
     </div>
   );
 }

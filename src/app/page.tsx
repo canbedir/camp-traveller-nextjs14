@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
 import Camp from "@/components/Camp/Camp";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import Work from "@/components/Work/Work";
 
 export default function Home() {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Camp />
+      <Work />
       <Testimonials />
     </div>
   );

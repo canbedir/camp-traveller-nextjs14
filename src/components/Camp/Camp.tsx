@@ -5,7 +5,12 @@ import { ImQuotesLeft } from "react-icons/im";
 const Camp = () => {
   return (
     <section className="container relative flex flex-col py-10">
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[440px] xl:h-[540px]">
+      <div
+        className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[440px] xl:h-[540px]"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="500"
+      >
         <CampItem
           title="Istanbul in Turkey"
           backgroundImage="bg-image1"

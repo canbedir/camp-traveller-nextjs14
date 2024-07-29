@@ -6,15 +6,17 @@ const Work = () => {
     <div className="h-full w-full">
       <div className="flex justify-center items-center">
         <div className="container">
-          <div className="flex flex-col justify-center gap-5">
+          <div
+            className="flex flex-col justify-center gap-5"
+            data-aos="fade-right"
+            data-aos-once="true"
+            data-aos-delay="100"
+          >
             <Image
               src={"/pattern/camp.png"}
               width={50}
               height={50}
               alt="camp img"
-              data-aos="fade-down"
-              data-aos-once="true"
-              data-aos-delay="100"
             />
             <h1 className="text-3xl lg:text-5xl font-semibold font-poppins">
               Work

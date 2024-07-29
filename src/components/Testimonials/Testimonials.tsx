@@ -11,7 +11,7 @@ const Testimonials = () => {
     <section className="py-10">
       <div className="container">
         <div className="text-center mb-28 h-1">
-          <h1 className="text-3xl lg:text-5xl font-semibold">Testimonials</h1>
+          <h1 className="text-3xl lg:text-5xl font-semibold font-poppins">Testimonials</h1>
           <div className="flex mt-5 justify-center">
             <div className="mb-6 h-1 w-full max-w-xl bg-orange-500"></div>
           </div>

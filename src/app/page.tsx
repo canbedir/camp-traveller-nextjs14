@@ -5,6 +5,7 @@ import AOS from "aos";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
+import Camp from "@/components/Camp/Camp";
 
 export default function Home() {
   useEffect(() => {
@@ -20,6 +21,7 @@ export default function Home() {
     <div className="font-roboto">
       <Navbar />
       <Hero />
+      <Camp />
     </div>
   );
 }

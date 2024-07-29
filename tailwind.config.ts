@@ -11,7 +11,9 @@ const config = {
   prefix: "",
   theme: {
     backgroundImage:{
-      pattern:"url('/pattern/2.png')"
+      pattern:"url('/pattern/2.png')",
+      image1:"url('/camper/1.jpg')",
+      image2:"url('/camper/4.jpg')",
     },
     fontFamily: {
       roboto: ["Roboto", "sans-serif"],

@@ -12,6 +12,7 @@ const config = {
   theme: {
     backgroundImage:{
       pattern:"url('/pattern/2.png')",
+      pattern2:"url('/pattern/3.png')",
       image1:"url('/camper/1.jpg')",
       image2:"url('/camper/4.jpg')",
     },

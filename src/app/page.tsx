@@ -8,6 +8,7 @@ import Hero from "@/components/Hero/Hero";
 import Camp from "@/components/Camp/Camp";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Work from "@/components/Work/Work";
+import Features from "@/components/Features/Features";
 
 export default function Home() {
   useEffect(() => {
@@ -26,6 +27,7 @@ export default function Home() {
       <Camp />
       <Work />
       <Testimonials />
+      <Features />
     </div>
   );
 }

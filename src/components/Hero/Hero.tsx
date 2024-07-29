@@ -48,7 +48,7 @@ const Hero = () => {
               {Array(5)
                 .fill(1)
                 .map((_, index) => (
-                  <FaStar className="h-8 w-8 text-yellow-400" />
+                  <FaStar key={index} className="h-8 w-8 text-yellow-400" />
                 ))}
               <span>175K</span> <span className="text-orange-500">Views</span>
             </div>

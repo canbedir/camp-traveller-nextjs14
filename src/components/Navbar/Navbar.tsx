@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link
               key={link.key}
               href={link.href}
-              className="font-poppins flex items-center cursor-pointer"
+              className="font-poppins flex items-center cursor-pointer text-black/80 hover:text-black transition"
               data-aos="fade-down"
               data-aos-once="true"
               data-aos-delay={link.delay}

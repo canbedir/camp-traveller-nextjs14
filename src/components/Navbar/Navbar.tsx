@@ -3,8 +3,11 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 import { Menu, MenuSquare, User } from "lucide-react";
+import { SignInButton, UserButton, useUser } from "@clerk/nextjs";
 
 const Navbar = () => {
+  const { isSignedIn } = useUser();
+
   return (
     <nav className="border border-b shadow-sm ">
       <div className="flex justify-between items-center px-3 py-3 relative z-30 container">
@@ -34,15 +37,19 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden lg:flex justify-center">
-          <Button
-            type="button"
-            className="flex gap-1.5"
-            data-aos="fade-left"
-            data-aos-once="true"
-            data-aos-delay="1100"
-          >
-            <User className="h-4 w-4" /> Login
-          </Button>
+          {isSignedIn ? (
+              <UserButton />
+          ) : (
+            <Button
+              type="button"
+              className="flex gap-1.5"
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-delay="1100"
+            >
+              <User className="h-4 w-4" /> <SignInButton />
+            </Button>
+          )}
         </div>
 
         <Menu className="lg:hidden inline-block cursor-pointer w-8 h-8 text-orange-500" />
